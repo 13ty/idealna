@@ -1,49 +1,55 @@
 # AI App Idea Generator
 
-## Overview
-An interactive web application that helps users generate and refine app ideas using AI-powered language models.
+An intelligent assistant for app development ideation and planning, powered by AI.
 
 ## Features
-- Multi-turn conversation with LLM
-- Configurable prompts
-- Word count tracking
-- Conversation history
-- Project concept management
+
+- AI-powered idea generation
+- Interactive response segmentation
+- Project planning tools
+- Multiple LLM model support
+- Custom prompt management
 
 ## Setup
 
-### Prerequisites
-- Node.js (v18+)
-- npm or yarn
-
-### Installation
 1. Clone the repository
-2. Install dependencies
-   ```
+2. Install dependencies:
+   ```bash
    npm install
    ```
+3. Start development server:
+   ```bash
+   npm start
+   ```
 
-### Running the Application
-```
-npm run dev
-```
+## Development
 
-### Building for Production
-```
-npm run build
-```
+- `npm start` - Start development server
+- `npm run build` - Create production build
+- `npm run test` - Run tests
+- `npm run lint` - Run linter
+- `npm run format` - Format code
+
+## Project Structure
+
+[Project structure details from project-structure.txt]
 
 ## Configuration
-- Configure LLM settings in the application
-- Supports local Ollama and external API providers
 
-## Testing
-```
-npm test
-```
+The project uses several configuration files:
+- TypeScript configuration (`tsconfig.json`)
+- ESLint configuration (`.eslintrc.json`)
+- Prettier configuration (`.prettierrc`)
+- Environment variables (`.env.*`)
 
 ## Contributing
-Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
 ## License
-This project is licensed under the MIT License.
+
+MIT
